@@ -7,3 +7,4 @@ use Illuminate\Support\Facades\Route;
 // verificar que `php artisan route:list --path=tasks` muestre las 5 rutas
 // una vez que completes TaskController.
 Route::apiResource('tasks', TaskController::class);
+
